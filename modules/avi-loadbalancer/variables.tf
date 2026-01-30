@@ -31,4 +31,21 @@ variable "ssh_public_key" {
   type = string
 }
 
+variable "se_name_prefix" {
+  type = string
+}
 
+variable "se_count" {
+  type    = number
+  default = 2
+}
+
+variable "se_cpu" {
+  type    = number
+  default = 4
+}
+
+variable "se_memory" {
+  type    = number
+  default = 16384
+}

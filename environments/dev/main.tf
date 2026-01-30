@@ -47,6 +47,23 @@ module "avi_lb" {
   controller_count        = 1
   template                = "avi-controller-template"
   ssh_public_key          = var.ssh_public_key
+  se_name_prefix          = "dev-avi-se"
 }
 
+module "avi" {
+  source = "../../modules/avi-loadbalancer"
+
+  datacenter = var.datacenter
+  cluster    = var.cluster
+  datastore  = var.datastore
+  network_name = module.app_network.network_name
+  template   = "avi-se-template"
+  ssh_public_key = var.ssh_public_key
+
+  controller_name_prefix = "dev-avi-controller"
+  controller_count       = 1
+
+  se_name_prefix = "dev-avi-se"
+  se_count       = 2
+}
 
