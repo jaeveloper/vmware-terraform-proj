@@ -36,7 +36,8 @@ This repository focuses on **infrastructure design and provisioning readiness**,
 
 ## Architecture Diagram
 
-> 📌 **Paste your architecture diagram here**
+> 📌![VMware Onprem DR](https://github.com/user-attachments/assets/50cdad9e-954a-44f2-8e69-6f3fc37ab81f)
+
 
 ```text
 [ PLACE ARCHITECTURE DIAGRAM IMAGE HERE ]
