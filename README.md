@@ -13,7 +13,8 @@ This repository focuses on **infrastructure design and provisioning readiness**,
 ## Architecture Diagram
 
 > 📌
-<img width="455" height="418" alt="Uni Architecture" src="https://github.com/user-attachments/assets/16981a43-3d33-4259-94a4-c8e962838dc4" />
+![image](https://github.com/user-attachments/assets/a1a1c7a1-5280-40db-a42a-ba41fadff87e)
+
 
 
 ---
