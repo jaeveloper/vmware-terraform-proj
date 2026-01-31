@@ -10,6 +10,14 @@ This repository focuses on **infrastructure design and provisioning readiness**,
 
 ---
 
+## Architecture Diagram
+
+> 📌
+<img width="455" height="418" alt="Uni Architecture" src="https://github.com/user-attachments/assets/16981a43-3d33-4259-94a4-c8e962838dc4" />
+
+
+---
+
 ## Key Design Goals
 
 - Fully on-prem architecture (no dependency on public cloud services)
@@ -32,12 +40,5 @@ This repository focuses on **infrastructure design and provisioning readiness**,
 5. Backend microservices
 6. Asynchronous data pipelines to analytics and reporting systems
 
----
 
-## Architecture Diagram
-
-> 📌![VMware Onprem DR](https://github.com/user-attachments/assets/50cdad9e-954a-44f2-8e69-6f3fc37ab81f)
-
-
-```text
 
