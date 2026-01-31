@@ -40,4 +40,4 @@ This repository focuses on **infrastructure design and provisioning readiness**,
 
 
 ```text
-[ PLACE ARCHITECTURE DIAGRAM IMAGE HERE ]
+
